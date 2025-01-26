@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/mebubars/Navbar";
 import QueryProviders from "@/contexts/query-provider";
+import Footer from "@/components/mebubars/Footer";
 
 export const metadata: Metadata = {
   title: "Tobams Group",
@@ -19,6 +20,7 @@ export default function RootLayout({
         <body>
           <Navbar />
           {children}
+          <Footer />
         </body>
       </QueryProviders>
     </html>
