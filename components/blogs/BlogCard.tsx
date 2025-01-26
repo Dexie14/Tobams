@@ -15,7 +15,7 @@ const BlogCard = ({ blogData }: { blogData: BlogType }) => {
           className="w-full h-full rounded-t-[8px]"
         />
         <div className="absolute z-[1000px] top-5 left-5 right-5 flex justify-between items-center">
-          <p className="text-primary font-semibold blur-blur bg-white bg-opacity-60 rounded-[4px] w-fit px-2 py-1.5">
+          <p className="text-primary capitalize font-semibold blur-blur bg-white bg-opacity-60 rounded-[4px] w-fit px-2 py-1.5">
             {blogData.tag_list[0]} , {blogData.tag_list[1]}
           </p>
           <Image src={defaultIcon} alt="defaultIcon" className="sm:hidden block"/>

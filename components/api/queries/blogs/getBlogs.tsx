@@ -26,6 +26,7 @@ export type BlogType = {
     subforem_id: number;
     tag_list: string[];
     tags: string;
+    body_html: string;
     title: string;
     type_of: string;
     url: string;

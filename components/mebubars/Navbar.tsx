@@ -12,7 +12,7 @@ const Navbar = () => {
   const showNav = () => setOpen(!open);
 
   return (
-    <header>
+    <header className="bg-white ">
       <div className="border-b border-[#DDD0DA]">
         <section className="py-4 flex justify-between items-center w-11/12 mx-auto ">
           <Image src={companyLogo} alt="companyLogo" />
